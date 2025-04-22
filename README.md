@@ -46,5 +46,15 @@ Follow the steps below to set up and run the project locally:
 3. Based on the tech stack provided, the bot generates and asks technical questions one at a time.
 4. After the user responds to all questions or exits, their details are saved in candidates.csv.
 
+---
+## Technical Details
+### Libraries Used
+- **Streamlit** - Web Interface
+- **LangChain** - Framework for managing LLM interactions and memory
+- **Langchain_groq** - LLaMA 3 integration via Groq API
+- **Pandas** - CSV data storage
+- **Dotenv** - Secure environment variable management
+
+
 
 
