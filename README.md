@@ -65,6 +65,28 @@ Prompt engineering plays a key role in the project. The following strategies wer
   You are an expert tech interviewer. Based on the following tech stack: {user_input},
   generate 3 to 5 technical questions that test different levels of experience.
 
+---
+## Challenges & Solutions
+### Technical Questions Flow
+- **Challenge** - LLaMA generated all questions at once.
+- **Solution** - Parsed the generated text and displayed questions one at a time using session state.
+### Deployment Errors
+- **Challenge** - Errors due to missing environment variables or modules on Streamlit Cloud.
+- **Solution** - Added requirements.txt, .env management, and set secrets via Streamlit Cloud settings.
+
+--
+## Deployment Guide
+- Push your project to GitHub.
+- Go to [Streamlit Cloud](https://streamlit.io/cloud)
+- Click "**New app**", choose your repo and branch.
+- Set app.py as the main file.
+- Add your GROQ_API_KEY under **Secrets**.
+-Click **Deploy** – You’ll get a live link to share!
+
+
+  
+  
+
 
 
 
