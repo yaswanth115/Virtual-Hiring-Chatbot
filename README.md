@@ -19,12 +19,16 @@ Follow the steps below to set up and run the project locally:
    git clone https://github.com/your-username/virtual-hiring-chatbot.git
    cd virtual-hiring-chatbot
 2. **Create and Activate Virtual Environment**
+   ```
    python -m venv venv
    source venv/bin/activate     # On Windows: venv\Scripts\activate
 3. **Install Required Packages**
+   ```bash
    pip install -r requirements.txt
 4. **Set Up the Environment Variables**
+   ```
    GROQ_API_KEY=gsk_your_actual_groq_api_key_here
 5. **Run the Application**
+   ```bash
    streamlit run app.py
 
