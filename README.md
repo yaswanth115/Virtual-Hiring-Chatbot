@@ -32,3 +32,19 @@ Follow the steps below to set up and run the project locally:
    ```bash
    streamlit run app.py
 
+---
+##  Usage Guide
+1. Launch the app using Streamlit.
+2. The chatbot will greet the user and begin asking for:
+   - Full Name
+   - Email
+   - Phone Number
+   - Year of Experience
+   - Postion Applied for
+   - Location
+   - Tech Stack
+3. Based on the tech stack provided, the bot generates and asks technical questions one at a time.
+4. After the user responds to all questions or exits, their details are saved in candidates.csv.
+
+
+
