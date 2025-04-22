@@ -55,6 +55,17 @@ Follow the steps below to set up and run the project locally:
 - **Pandas** - CSV data storage
 - **Dotenv** - Secure environment variable management
 
+### Model Used
+- **LLaMA 3** by Meta, served through **Groq API** (llama-3-8b or llama-3.3-70b-versatile)
+---
+## Prompt Design
+Prompt engineering plays a key role in the project. The following strategies were used:
+- **Contextual Instructions**:
+  ```Example:
+  You are an expert tech interviewer. Based on the following tech stack: {user_input},
+  generate 3 to 5 technical questions that test different levels of experience.
+
+
 
 
 
